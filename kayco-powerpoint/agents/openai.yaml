@@ -1,0 +1,5 @@
+interface:
+  display_name: "KAYCO PowerPoint"
+  short_description: "Build polished KAYCO slide decks"
+  brand_color: "#9D257E"
+  default_prompt: "Use $kayco-powerpoint to create a polished KAYCO PowerPoint deck."
