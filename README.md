@@ -6,7 +6,7 @@ A collection of Codex skills for KAYCO-related workflows, branding, internal too
 
 ### `kayco-powerpoint`
 
-Creates polished KAYCO-branded PowerPoint decks with the approved purple-led visual style, bundled KAYCO logo, editable slide layout guidance, imagegen art-direction rules, and PowerPoint compatibility checks.
+Creates polished KAYCO-branded PowerPoint decks with the approved purple-led visual style, bundled KAYCO and KAYCO brand logos, editable slide layout guidance, imagegen art-direction rules, and PowerPoint compatibility checks.
 
 ## Repository Structure
 
@@ -20,9 +20,11 @@ Kayco-Skills-/
     ├── agents/
     │   └── openai.yaml
     ├── assets/
-    │   └── kayco-logo.png
+    │   ├── kayco-logo.png
+    │   └── brand-logos/
     └── references/
-        └── brand-guide.md
+        ├── brand-guide.md
+        └── brand-logos.md
 ```
 
 ## Install A Skill

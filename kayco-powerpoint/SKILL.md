@@ -12,6 +12,8 @@ Use this skill when creating or improving a PowerPoint deck for KAYCO or a KAYCO
 1. Read `references/brand-guide.md` before designing or editing slides.
 2. Use bundled logo assets from `assets/`:
    - `assets/kayco-logo.png`
+   - Brand logos in `assets/brand-logos/`
+   - Read `references/brand-logos.md` when a deck needs a specific KAYCO brand mark.
 3. Build editable PowerPoint content whenever possible:
    - Slide text, tables, callouts, bullets, labels, and diagrams should be native PowerPoint objects.
    - Use imagegen only for text-free art plates or atmospheric supporting visuals.
@@ -37,7 +39,7 @@ Use `imagegen` for:
 
 Do not ask imagegen for:
 
-- KAYCO logos.
+- KAYCO or KAYCO brand logos.
 - Readable slide text, labels, numbers, charts, tables, citations, or UI copy.
 - Robots, brains, glowing circuits, or fake brand marks.
 
@@ -51,7 +53,7 @@ Prompt images with:
 
 - Friendly and practical, not hype-driven.
 - Explain concepts through concrete workplace examples.
-- For warnings, include a grounded “what can go wrong” example.
+- For warnings, include a grounded "what can go wrong" example.
 - Avoid invented internal metrics. If presenter/title/use-case details are unknown, leave them neutral or ask the user.
 
 ## Verification
