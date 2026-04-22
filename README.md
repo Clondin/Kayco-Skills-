@@ -12,6 +12,10 @@ Creates polished KAYCO-branded PowerPoint decks with the approved purple-led vis
 
 Creates Tuscanini brand identity work, presentations, sell sheets, ads, packaging concepts, ecommerce graphics, social assets, and product-forward copy using the bundled Tuscanini logo, bundled lightweight site imagery, and the local KAYCO Tuscanini asset map.
 
+### `beleaves-brand`
+
+Creates Beleaves brand identity work, presentations, sell sheets, ecommerce graphics, website assets, social content, POS, packaging concepts, and product-forward copy using the bundled Beleaves logo, bundled lightweight site imagery, and the local Beleaves site asset map.
+
 ## Repository Structure
 
 Each skill should live in its own folder:
@@ -20,21 +24,31 @@ Each skill should live in its own folder:
 Kayco-Skills-/
 ├── README.md
 ├── kayco-powerpoint/
+│   ├── SKILL.md
+│   ├── agents/
+│   │   └── openai.yaml
+│   ├── assets/
+│   │   ├── kayco-logo.png
+│   │   └── brand-logos/
+│   └── references/
+│       ├── brand-guide.md
+│       └── brand-logos.md
+├── tuscanini-brand/
+│   ├── SKILL.md
+│   ├── agents/
+│   │   └── openai.yaml
+│   ├── assets/
+│   │   ├── tuscanini-logo.jpg
+│   │   └── site-assets/
+│   └── references/
+│       ├── brand-guide.md
+│       └── asset-map.md
+└── beleaves-brand/
     ├── SKILL.md
     ├── agents/
     │   └── openai.yaml
     ├── assets/
-    │   ├── kayco-logo.png
-    │   └── brand-logos/
-    └── references/
-        ├── brand-guide.md
-        └── brand-logos.md
-└── tuscanini-brand/
-    ├── SKILL.md
-    ├── agents/
-    │   └── openai.yaml
-    ├── assets/
-    │   ├── tuscanini-logo.jpg
+    │   ├── beleaves-logo.png
     │   └── site-assets/
     └── references/
         ├── brand-guide.md
@@ -54,11 +68,12 @@ Then invoke it by name:
 ```text
 Use $kayco-powerpoint to create a polished KAYCO PowerPoint deck.
 Use $tuscanini-brand to create a polished Tuscanini brand asset.
+Use $beleaves-brand to create a polished Beleaves brand asset.
 ```
 
 ## Notes
 
 - Keep each skill self-contained.
-- Put brand assets under that skill’s `assets/` folder.
-- Put longer reusable guidance under that skill’s `references/` folder.
+- Put brand assets under that skill's `assets/` folder.
+- Put longer reusable guidance under that skill's `references/` folder.
 - Avoid committing sensitive KAYCO data, private internal metrics, or confidential documents.

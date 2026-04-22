@@ -1,0 +1,5 @@
+interface:
+  display_name: "Beleaves Brand"
+  short_description: "Create Beleaves branded assets"
+  brand_color: "#1B5E20"
+  default_prompt: "Use $beleaves-brand to create a polished Beleaves brand asset."
