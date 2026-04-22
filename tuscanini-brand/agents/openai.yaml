@@ -1,0 +1,5 @@
+interface:
+  display_name: "Tuscanini Brand"
+  short_description: "Create Tuscanini branded assets"
+  brand_color: "#007A3D"
+  default_prompt: "Use $tuscanini-brand to create a polished Tuscanini brand asset."
