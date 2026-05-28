@@ -1,5 +1,7 @@
 # KAYCO PowerPoint Brand Guide
 
+Use this guide when the deck is for KAYCO, a KAYCO internal audience, a kosher food company context, a supplier conversation, an executive update, or a branded KAYCO presentation.
+
 ## Palette
 
 - KAYCO purple: `#9D257E`
@@ -23,44 +25,37 @@
 
 ## Header System
 
-Default header for most slides:
+Default content-slide header:
 
-- Height around 12 percent of slide height.
-- White or translucent white full-width band.
-- KAYCO logo at top left.
-- Optional thin accent rule or small label to the right of the logo.
-- Slide name centered in KAYCO purple.
-- Section label at top right in muted gray.
+- Keep the header narrow, around 0.7 inches tall.
+- Use the KAYCO logo at top left.
+- Use one page name or section name, right-aligned in KAYCO purple.
+- Avoid stacked eyebrow + headline + category-tag headers on every slide.
+- Use a hairline divider only when it helps separate the header from dense content.
 
 Cover slide:
 
-- Full-bleed generated image background.
-- Same header system unless the user asks for a cleaner cover.
-- Left-side KAYCO purple panel or overlay for title readability.
+- Full-bleed generated image or strong purple-led background when appropriate.
+- Use a KAYCO purple panel or overlay only when needed for title readability.
+- Keep the logo clear and do not place it over busy generated imagery.
 
 Closing slide:
 
-- Purple-led background.
-- Keep header with the KAYCO logo unless the user asks otherwise.
-- Large simple `Questions.` or equivalent closing message.
+- Purple-led background is appropriate.
+- A single direct closing line or action bar is enough.
+- Keep the KAYCO logo visible unless the user asks for an unbranded close.
 
 ## Layout Patterns
 
-- Use full-width purple title bands for section framing.
-- Use white or pale-lavender rounded cards for content.
-- Use vertical purple strips or large numerals for hierarchy.
-- Use native PowerPoint shapes for diagrams:
-  - cards
-  - flow lines
-  - document icons
-  - spreadsheet/table icons
-  - checkmarks
-  - lock/privacy markers
-- Avoid tiny image thumbnails. If using generated art, make it a large integrated side plate or background.
+- Use KAYCO purple for hero numbers, step circles, sparse anchors, and important call-to-action bars.
+- Use white and pale lavender for quiet support areas, but do not turn every text block into a card.
+- Use native PowerPoint shapes for diagrams, flow lines, document icons, spreadsheet/table icons, checkmarks, and lock/privacy markers.
+- Prefer large integrated image plates, half-bleed visuals, or editable diagrams over tiny thumbnails.
+- If using panels, use one or two soft-tinted grouping panels per slide, not a grid of equal outlined boxes.
 
 ## AI Training Deck Content Patterns
 
-For “What an LLM is”:
+For "What an LLM is":
 
 - Use a concrete next-word prediction example such as:
   `The capital of France is ___` -> likely next word `Paris`.
@@ -75,10 +70,11 @@ For prompting:
 For guardrails:
 
 - Pair each warning with a specific example of what can go wrong.
-- Keep privacy guidance nuanced and tied to approved company tools.
+- Keep privacy guidance nuanced and tied to approved company tools/channels unless a current policy source is provided.
 
 ## Output Safety
 
-- Do not invent internal usage numbers, savings, titles, or presenter credentials.
-- Mark unknown fields as TBD only if the user wants placeholders.
-- Prefer “approved tools/channels” wording for privacy unless a current policy source is provided.
+- Do not invent internal usage numbers, savings, titles, margins, market sizes, category shares, or presenter credentials.
+- Mark unknown fields as unconfirmed, or use TBD only when the user explicitly wants placeholders.
+- Strip internal framing language when adapting internal material for an external audience.
+- Re-check footers, source lines, and cover/closing slides for audience fit.
